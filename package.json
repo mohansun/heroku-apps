@@ -1,0 +1,23 @@
+{
+  "name": "app-1",
+  "version": "0.0.1",
+  "description": "Sample nodejs app",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohansun/heroku-apps"
+  },
+  "keywords": [
+    "nodejs",
+    "heroku"
+  ],
+  "author": "mohan.chinnappan.n@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "logfmt": "~0.18.1",
+    "express": "~3.4.7"
+  }
+}
