@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
   res.send('Hello World!');
 
 pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-  client.query('SELECT * FROM your_table', function(err, result) {
+  client.query('SELECT * FROM test1', function(err, result) {
     done();
     if(err) return console.error(err);
     console.log(result.rows);
