@@ -97,4 +97,13 @@ heroku pg:psql
 
 #-------- note use this table : test1 in web.js
 
+#---------------- logs ============
+
+#2013-12-15T00:38:58.036275+00:00 heroku[api]: Scale to web=1 by mohan.chinnappan.n@gmail.com
+#2013-12-15T00:39:04.718449+00:00 app[web.1]: ip=10.137.5.173 time=2013-12-15T00:39:04.706Z method=GET path=/ status=304 content_length= content_type= elapsed=23ms
+#2013-12-15T00:39:04.898731+00:00 app[web.1]: [ { name: 'Mohan Chinnappan' },
+#2013-12-15T00:39:04.898731+00:00 app[web.1]:   { name: 'Dennis Ritchie' },
+#2013-12-15T00:39:04.898731+00:00 app[web.1]:   { name: 'Ken Thompson' } ]
+#2013-12-15T00:39:04.934758+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=aqueous-dawn-2340.herokuapp.com fwd="24.147.77.26" dyno=web.1 connect=1ms service=29ms status=404 bytes=35
+#2013-12-15T00:39:04.937320+00:00 app[web.1]: ip=10.198.90.4 time=2013-12-15T00:39:04.910Z method=GET path=/favicon.ico status=404 content_length= content_type=text/html elapsed=19ms
 
