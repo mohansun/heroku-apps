@@ -18,6 +18,10 @@
   "license": "MIT",
   "dependencies": {
     "logfmt": "~0.18.1",
-    "express": "~3.4.7"
-  }
+    "express": "~3.4.7",
+    "pg"     : "2.x"
+  },
+  "gitHead": "ef90676f5835ba92625f7dac49ad0d38ba58a909",
+  "devDependencies": {},
+  "readmeFilename": "README.md"
 }
